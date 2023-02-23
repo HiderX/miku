@@ -229,7 +229,7 @@ a:active	{ text-decoration: underline; }
 	top: 0;
 	left: 0;
 	content: "";
-	background: url(https://github.com/HiderX/miku/blob/main/static/fonts/icon_top.svg) left top no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/fonts/icon_top.svg) left top no-repeat;
 	background-size: 100% auto;
 	width: inherit;
 	height: inherit;
