@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+body{
+	background: #fff;
+}
+
+#wrapper{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 960px){
+	#wrapper::before{
+		width: 1700px;
+	}
+}
+
+section > .wrap{
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 5%;
+}
+
+@media screen and (max-width:768px){
+	section > .wrap{
+		max-width: 100%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 960px){
+	#wrapper::before{
+		width: 1700px;
+	}
+}
+
+.index_hero_credit{
+	position: absolute;
+	right: 10px;
+	bottom: 39px;
+	margin: auto;
+	text-align: right;
+	padding-right: 5%;
+	line-height: 1.5;
+}
+
+.index_logo_miku{
+	width: 100px;
+	height: auto;
+}
+
+.index_hero_credit{
+	font-size: 1.1rem;
+	text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+}
+
+.index_hero_credit p{
+	margin-bottom: 6px;
+}
+
+.location_clm{
+	max-width: 1200px;
+	margin: 60px auto 0 27px;
+}
+
+.location_clm.ex > div{
+	width: 46%;
+	padding: 10px;
+}
+
+.location_clm.ex > div{
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/back_ex_location.png) center bottom repeat;
+	background-size: 9% auto;
+}
+
+@media screen and (max-width: 1100px){
+	.location_clm{
+		max-width: 100%;
+		margin: 10px auto 0;
+	}
+
+	.location_clm.ex > div{
+		width: 100%;
+		padding: 8px;
+		margin-bottom: 30px;
+	}
+}
+
+.bg_white{
+	background: #fff;
+	padding: 30px;
+	text-align: center;
+	font-size: 1.9rem;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+@media screen and (max-width: 1100px){
+	.bg_white{
+		padding: 15px 15px 20px;
+		font-size: 1.5rem;
+		line-height: 1.4;
+	}
+}
+
+.location_title{
+	font-size: 7.0rem;
+    color: #333;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+    letter-spacing: 5px;
+	line-height: 1.0;
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1100px){
+	.location_title{
+		font-size: 5.4rem;
+		margin-bottom: 10px;
+	}
+}
+
+#index_visual{
+	position: relative;
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/back_grid.png);
+	text-align: center;
+}
+
+#index_visual{
+	padding: 39px 0;
+}
+
+@media screen and (max-width: 1100px){
+	#index_visual{
+		padding: 45px 0 60px;
+	}
+}
+
+#index_visual::before,
+#index_visual::after{
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/line_3color.svg) center bottom repeat-x;
+	width: 100%;
+	height: 7px;
+	left: 0;
+}
+
+#index_visual::before{
+	top: 0;
+}
+
+#index_visual::after{
+	bottom: 0;
+}
+
+@media screen and (max-width: 1100px){
+	#index_visual::after{
+		background-size:30%;
+	}
+}
+
+.grid h2{
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.grid h2 p{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.grid h2 p{
+	margin: 5px auto 0 -51px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#index_visual h2 p{
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/title_visual.png) center top no-repeat;
+	background-size: auto 100%;
+	width: 632px;
+	height: 79px;
+}
+
+@media screen and (max-width: 1100px){
+	.grid h2 p{
+		margin: -39px auto 0;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	#index_visual h2 p{
+		width: 100%;
+		height: auto;
+		background-size: 100% auto;
+		padding-top: 10%;
+	}
+}
+
+.grid .txtbox{
+	text-align: center;
+	font-size: 1.3rem;
+	line-height: 1.9;
+	margin-top: 50px;
+}
+
+.grid .txtbox .title{
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+#index_visual .wrap{
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/about_visual_miku.png) right 15px top 9px no-repeat;
+	background-size: 550px auto;
+	min-height: 700px;
+}
+
+.index_visual_text{
+	width: 50%;
+	margin-right: auto;
+}
+
+.index_visual_text .txtbox{
+	background: rgba(254, 253, 240, 0.85);
+}
+
+@media screen and (max-width: 1100px){
+	#index_visual .wrap{
+		background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/about_visual_miku_s.png) center top 54% no-repeat;
+		background-size: 90% auto;
+		min-height: inherit;
+	}
+
+	.index_visual_text{
+		width: 100%;
+		margin-right: 0;
+		margin-top: 139%;
+	}
+
+	.index_visual_text .txtbox{
+		background: rgba(254, 253, 240, 0.9);
+	}
+}
+
+.visual_link{
+	margin-top: 45px;
+}
+
+@media screen and (max-width: 1100px){
+	.visual_link{
+		text-align: left;
+	}
+}
+
+#index_miku{
+	padding: 60px 0;
+	background: #E6E6E6;
+	font-size: 1.3rem;
+}
+
+#index_miku .wrap{
+	margin: auto;
+	padding: 0 5%;
+	background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/about_miku.png) left 5% bottom no-repeat;
+	background-size: contain;
+}
+
+.index_miku_text{
+	margin-left: 220px;
+}
+
+.index_miku_title{
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-size: 1.8rem;
+}
+
+.title_main{
+	font-size: 3.0rem;
+	line-height: 1.3;
+	letter-spacing: 8px;
+}
+
+@media screen and (max-width: 1100px){
+	#index_miku{
+		background: url(https://cdn.jsdelivr.net/gh/HiderX/miku@main/static/images/about_miku_s.png) center top no-repeat #E6E6E6;
+		background-size: 60% auto;
+		padding: 45px 0 0;
+		font-size: 1.1rem;
+	}
+
+	#index_miku .wrap{
+		padding: 0;
+		background: none;
+	}
+
+	.index_miku_text{
+		margin-left: 0;
+	}
+
+	.index_miku_title{
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 1.4rem;
+	}
+
+	.title_main{
+		font-size: 2.4rem;
+		letter-spacing: 5px;
+	}
+
+	.index_miku_detail{
+		background: rgba(255, 255, 255, 0.88);
+		margin-top: 60%;
+		padding: 20px 15px;
+	}
+}
